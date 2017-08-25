@@ -7,6 +7,7 @@ site.baseurl: thurbridi.github.io/l3c-wiki/
 logo_url: assets/images/l3cicon.png
 google_analytics:
 theme:
+markdown: kramdown
 wiki_folder: /wiki/
 use_github_wiki: false
 use_prose_io: false

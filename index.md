@@ -1,6 +1,6 @@
 ---
-title: index
-layout: default
+title: Início
+layout: index
 permalink: /
 ---
 
