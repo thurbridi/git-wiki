@@ -5,7 +5,7 @@ show_downloads: false
 show_comments: true
 git_branch: gh-pages
 site.baseurl: thurbridi.github.io/l3c-wiki/
-logo_url: /img/l3cicon.png
+logo_url: img/l3cicon.png
 google_analytics:
 theme:
 wiki_folder: wiki
