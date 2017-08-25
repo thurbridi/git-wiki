@@ -1,6 +1,7 @@
 ---
 layout: default
 title: correlacao
+permalink: correlacao
 ---
 
 # Correlação

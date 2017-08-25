@@ -1,6 +1,7 @@
 ---
 layout: default
 title: covariancia
+permalink: covariancia
 ---
 
 # Covariância
@@ -10,4 +11,4 @@ title: covariancia
 - Um valor **negativo** indica uma relação linear decrescente
 
 ver também:
-- [correlação]({% link wiki/correlacao.md %})
+- [correlação]({{ site.baseurl }}{% link wiki/correlacao.md %})
