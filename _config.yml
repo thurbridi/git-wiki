@@ -1,17 +1,12 @@
 title: L3C Wiki
 description: Uma wiki para os projetos do Laboratório de Conexionismo e Ciências Cognitivas da UFSC
 permalink: none
-show_comments: true
+show_comments: false
 git_branch: gh-pages
-site.baseurl: thurbridi.github.io/l3c-wiki/
 logo_url: assets/images/l3cicon.png
 google_analytics:
 theme:
 markdown: kramdown
-wiki_folder: /wiki/
-use_github_wiki: false
-use_prose_io: false
-google_cse_token: false
 custom_head: false
 custom_sidebar: false
 custom_footer: false
