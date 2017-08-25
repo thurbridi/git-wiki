@@ -1,7 +1,7 @@
 ---
 layout: default
 title: correlacao
-permalink: correlacao
+permalink: prob-est/correlacao
 ---
 
 # Correlação
