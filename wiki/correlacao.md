@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: wiki/correlacao
+title: correlacao
 ---
 
 # Correlação

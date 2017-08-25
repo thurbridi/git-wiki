@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: wiki/covariancia
+title: covariancia
 ---
 
 # Covariância
