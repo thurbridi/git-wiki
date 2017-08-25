@@ -1,6 +1,7 @@
 ---
 title: index
 layout: default
+permalink: /
 ---
 
 # Início
