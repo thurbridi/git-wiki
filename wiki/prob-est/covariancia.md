@@ -1,14 +1,16 @@
 ---
-layout: default
+layout: page
 title: Covariância
 permalink: prob-est/covariancia
 ---
 
 # Covariância
 
-É uma família de medidas estatísticas usada para analisar as relações lineares entre duas variáveis. É uma medida descritiva onde:
-- Um valor **positivo** indica uma relação linear crescente
-- Um valor **negativo** indica uma relação linear decrescente
+Em teoria da probabilidade e na estatística, a covariância, ou variância conjunta, é uma medida do grau de interdependência (ou inter-relação) numérica entre duas variáveis aleatórias. Assim, variáveis independentes têm covariância zero.
+
+
+$$ \sigma _{xy} = \frac{\sum{(x_i - \mu _x)(y_i - \mu _y)}}{N} $$
+
 
 ver também:
 - [correlação]({{ site.github.url }}{% link wiki/prob-est/correlacao.md %})
