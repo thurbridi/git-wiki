@@ -1,6 +1,7 @@
 ---
 layout: default
-title: covariancia
+title: Covariância
+permalink: prob-est/covariancia
 ---
 
 # Covariância
@@ -10,4 +11,4 @@ title: covariancia
 - Um valor **negativo** indica uma relação linear decrescente
 
 ver também:
-- [correlação]({{ site.baseurl }}{% link wiki/prob-est/correlacao.md %})
+- [correlação]({{ site.github.url }}{% link wiki/prob-est/correlacao.md %})
