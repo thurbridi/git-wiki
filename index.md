@@ -13,10 +13,12 @@ Limitações dessa wiki:
 - indexação manual das páginas
 - sem caixa de pesquisa
 
+## [Geofísica]({{ site.github.url }}{% link wiki/geofisica/geofisica.md %})
+- [Traço sísmico]({{ site.github.url }}{% link wiki/geofisica/traco_sismico.md %})
 
-Index:
-- Geofísica
-    - [Traço sísmico]({{ site.github.url }}{% link wiki/geofisica/traco_sismico.md %})
-- Probabilidade e estatística:
-    - [Covariância]({{ site.github.url }}{% link wiki/prob-est/covariancia.md %})
-    - [Correlação]({{ site.github.url }}{% link wiki/prob-est/correlacao.md %})
+## [Probabilidade e estatística]({{ site.github.url }}{% link wiki/prob-est/prob-est.md %})
+- [Covariância]({{ site.github.url }}{% link wiki/prob-est/covariancia.md %})
+- [Correlação]({{ site.github.url }}{% link wiki/prob-est/correlacao.md %})
+
+## [MATLAB]({{ site.github.url }}{% link wiki/matlab/matlab.md %})
+- [Exercícios]({{ site.github.url }}{% link wiki/matlab/exercicios.md %})

@@ -1,0 +1,9 @@
+---
+layout: page
+title: Exercícios MATLAB
+permalink: matlab/exercicios
+---
+
+# Exercícios
+- [GEOV112 Exercise Set 1]({{ site.github.url }}{% link wiki/matlab/GEOV112_ex_set_1_2017.pdf %})
+- [GEOV112 Exercise Set 2]({{ site.github.url }}{% link wiki/matlab/GEOV112_ex_set_2_2017.pdf %})
