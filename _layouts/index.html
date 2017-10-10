@@ -7,10 +7,11 @@ layout: default
 <h1>Índice</h1>
 {% for collection in site.collections %}
     <h2><a href="{{collection.label}}">{{collection.name}}</a></h2>
-
+    <ul>
     {% for page in collection.docs %}
         {% if page.title != collection.name %}
-        <h3><a href="{{page.url}}">{{page.title}}</h3>
+        <li><a href="{{page.url}}">{{page.title}}</a></li>
         {% endif%}
     {% endfor %}
+    </ul>
 {% endfor %}
