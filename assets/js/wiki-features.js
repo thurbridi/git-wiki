@@ -8,7 +8,7 @@
       minimumHeaders: 3,
       headers: 'h1, h2, h3, h4, h5, h6',
       listType: 'ol', // values: [ol|ul]
-      showEffect: 'show', // values: [show|slideDown|fadeIn|none]
+      showEffect: 'slideDown', // values: [show|slideDown|fadeIn|none]
       showSpeed: 'slow', // set to 0 to deactivate effect
       classes: { list: '',
                  item: ''
@@ -33,12 +33,12 @@
       if (!this.id && previousSiblingName) {
         this.id = $(this).attr( "id", previousSiblingName.replace(/\./g, "-") );
       }
-      
+
       // Yehonal
       if (!this.id) {
-        this.id = $(this).text().replace(/\W/g,'_'); 
+        this.id = $(this).text().replace(/\W/g,'_');
       }
-      
+
       return this.id;
     }), output = $(this);
     if (!headers.length || headers.length < settings.minimumHeaders || !output.length) {

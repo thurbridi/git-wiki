@@ -1,11 +1,6 @@
 ---
-layout: page
+layout: index
 title: Geofísica
 permalink: geofisica/
+collection_index: true
 ---
-
-# Geofísica
-
-## Índice
-- [Traço sísmico]({{ site.github.url }}{% link _geofisica/traco_sismico.md %})
-- [Impedância Acústica]({{ site.github.url }}{% link _geofisica/impedancia_acustica.md %})

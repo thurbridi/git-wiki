@@ -2,16 +2,30 @@
 layout: default
 ---
 
+<h1>{{ page.title }}</h1>
+
 {{ content }}
 
-<h1>Índice</h1>
-{% for collection in site.collections %}
-    <h2><a href="{{collection.label}}">{{collection.name}}</a></h2>
-    <ul>
-    {% for page in collection.docs %}
-        {% if page.title != collection.name %}
-        <li><a href="{{page.url | relative_url}}">{{page.title}}</a></li>
-        {% endif%}
+{% if page.collection_index %}
+    <h1>Tópicos</h1>
+    {% for collection in site.collections %}
+        {% for doc in collection.docs %}
+            {% if doc.title != collection.name and collection.label == page.collection %}
+            <li><a href="{{doc.url | relative_url}}">{{doc.title}}</a></li>
+            {% endif %}
+        {% endfor %}
     {% endfor %}
-    </ul>
-{% endfor %}
+
+{% else%}
+    <h1>Índice</h1>
+    {% for collection in site.collections %}
+        <h2><a href="{{collection.label}}">{{collection.name}}</a></h2>
+        <ul>
+        {% for doc in collection.docs %}
+            {% if doc.title != collection.name %}
+            <li><a href="{{doc.url | relative_url}}">{{doc.title}}</a></li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    {% endfor %}
+{% endif %}

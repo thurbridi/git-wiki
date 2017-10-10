@@ -1,11 +1,7 @@
 ---
-layout: page
+layout: index
 title: Probabilidade e Estatística
 permalink: prob-est/
+collection_index: true
 ---
 
-# Probabilidade e Estatística
-
-## Índice
-- [Covariância]({{ site.github.url }}{% link _prob-est/covariancia.md %})
-- [Correlação]({{ site.github.url }}{% link _prob-est/correlacao.md %})

@@ -25,6 +25,7 @@ collections:
     output: true
     name: MATLAB
     permalink: /matlab/:path/
+
 plugins:
   - jekyll-sitemap
   - jekyll-mentions

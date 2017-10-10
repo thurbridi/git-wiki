@@ -4,8 +4,6 @@ title: Impedância Acústica
 permalink: geofisica/impedancia-acustica
 ---
 
-# Impedância Acústica
-
 É a resistência de um material ao movimento de uma onda sonora. Definida por:
 
 

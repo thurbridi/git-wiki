@@ -1,9 +1,6 @@
 ---
-layout: page
+layout: index
 title: MATLAB
 permalink: matlab/
+collection_index: true
 ---
-
-# MATLAB
-
-## [Exercícios]({{ site.github.url }}{% link _matlab/exercicios.md %})
