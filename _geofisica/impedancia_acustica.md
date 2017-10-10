@@ -13,7 +13,7 @@ $$ Z = \rho * v$$
 
 onde $$Z$$ é a impedância acústica, $$\rho$$ é a densidade, e $$v$$ é a velocidade do som no material
 
-## Exemplos:
+## Exemplos
 
 
 |        Meio           | Velocidade ($$m * s^{-1}$$)   | Densidade   ($$kg * m^{-3}$$)     | Impedância Acústica   ($$kg * m^{-2} * s^{-1} * 10^6$$)   |
@@ -30,7 +30,7 @@ onde $$Z$$ é a impedância acústica, $$\rho$$ é a densidade, e $$v$$ é a vel
 | Vidro                 |       $$5000 ~ 6000$$         |        $$2320 ~ 2427$$            |                         $$11.6$$                          |
 
 
-##
+## Refração e reflexão
 Quando uma onda sonora atravessa de um meio para outro, parte da energia é refletida e parte é transmitida. A razão entre essas quantias de energia depende das impedâncias dos dois materiais:
 
 $$ R = \frac{I_r}{I_o} = \frac{(Z_2-Z_1)^2}{(Z_2+Z_1)^2} $$
