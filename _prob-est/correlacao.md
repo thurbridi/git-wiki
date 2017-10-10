@@ -1,6 +1,6 @@
 ---
 layout: page
-title: correlacao
+title: Correlação
 permalink: prob-est/correlacao
 ---
 

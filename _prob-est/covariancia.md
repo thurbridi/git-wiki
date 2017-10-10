@@ -13,4 +13,4 @@ $$ \sigma _{xy} = \frac{\sum{(x_i - \mu _x)(y_i - \mu _y)}}{N} $$
 
 
 ver também:
-- [correlação]({{ site.github.url }}{% link wiki/prob-est/correlacao.md %})
+- [correlação]({{ site.github.url }}{% link _prob-est/correlacao.md %})

@@ -10,6 +10,21 @@ markdown: kramdown
 custom_head: false
 custom_sidebar: false
 custom_footer: false
+
+collections_dir: wiki
+collections:
+  geofisica:
+    output: true
+    name: Geofísica
+    permalink: /geofisica/:path/
+  prob-est:
+    output: true
+    name: Probabilidade e Estatística
+    permalink: /prob-est/:path/
+  matlab:
+    output: true
+    name: MATLAB
+    permalink: /matlab/:path/
 plugins:
   - jekyll-sitemap
   - jekyll-mentions
