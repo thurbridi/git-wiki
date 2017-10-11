@@ -1,6 +1,5 @@
 ---
-layout: index
+layout: collection_index
 title: MATLAB
 permalink: matlab/
-collection_index: true
 ---

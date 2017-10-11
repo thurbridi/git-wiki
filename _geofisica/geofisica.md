@@ -1,6 +1,5 @@
 ---
-layout: index
+layout: collection_index
 title: Geofísica
 permalink: geofisica/
-collection_index: true
 ---

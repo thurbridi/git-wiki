@@ -6,14 +6,11 @@ layout: default
 
 {{ content }}
 
-<h1>Índice</h1>
+<h1>Tópicos</h1>
 {% for collection in site.collections %}
-    <h2><a href="{{collection.label}}">{{collection.name}}</a></h2>
-    <ul>
     {% for doc in collection.docs %}
-        {% if doc.title != collection.name %}
+        {% if doc.title != collection.name and collection.label == page.collection %}
         <li><a href="{{doc.url | relative_url}}">{{doc.title}}</a></li>
         {% endif %}
     {% endfor %}
-    </ul>
 {% endfor %}
