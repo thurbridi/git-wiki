@@ -14,11 +14,10 @@ Covariância faz parte de uma família de medidas estatísticas usadas para anal
 ![text]({{ site.github.url }}{% link assets/images/covariancia_01.svg %})
 
 ## Definição
-Covariância amostral:
 
-$$ s_{xy} = \frac{\sum{(x_i - \overline{x})(y_i - \overline{y})}}{n-1} $$
+$$ cov(X, Y) = \frac{\sum{(x_i - \overline{x})(y_i - \overline{y})}}{N} $$
 
-onde $$x_i$$ é o valor de $$x$$ na amostra $$_i$$, $$\overline{x}$$ é o valor médio de $$x$$, $$y_i$$ é o valor de $$y$$ na amostra $$_i$$, $$\overline{y}$$ é o valor médio de $$y$$, e $$n$$ o tamanho da amostra.
+onde $$x_i$$ é o valor de $$X$$ na amostra $$_i$$, $$\overline{x}$$ é o valor médio de $$X$$ e $$N$$ o tamanho da amostra.
 
 
 ## Matriz de covariância
@@ -36,3 +35,7 @@ Sendo $$x_1$$, $$x_2$$, $$x_3$$, $$x_4$$ diferentes variáveis aleatórias,
 
 # Ver também
 - [Correlação]({{ site.github.url }}{% link _prob-est/correlacao.md %})
+
+# Referências
+- [Weisstein, Eric W. "Covariance." From MathWorld--A Wolfram Web Resource.](http://mathworld.wolfram.com/Covariance.html)
+- [Statistics 101: Understanding Covariance](https://www.youtube.com/watch?v=xGbpuFNR1ME&t=1219s)
